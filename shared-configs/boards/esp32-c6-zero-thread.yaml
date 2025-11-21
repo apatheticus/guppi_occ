@@ -241,7 +241,8 @@ light:
     chipset: ws2812             # WS2812B chipset
     id: status_light
     name: "RGB Status Light"
-    restore_mode: ALWAYS_OFF
+    # restore_mode: ALWAYS_OFF
+    restore_mode: RESTORE_DEFAULT_OFF
     effects:
       - addressable_rainbow:
           name: "Rainbow"
